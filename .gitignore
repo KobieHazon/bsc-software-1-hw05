@@ -1,0 +1,6 @@
+build/
+*.class
+*.voc
+*.counts
+.DS_Store
+__MACOSX/
