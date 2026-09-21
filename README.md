@@ -33,7 +33,7 @@ The validation run compiles the project, executes the maintained regression harn
 
 ## Repository Structure
 
-- `assignment/MISSING_HANDOUT.md`: provenance note explaining that the exact matching handout and original fixtures were not recovered
+- `assignment/MISSING_HANDOUT.md`: background note explaining that the exact matching handout and original fixtures were not recovered
 - `resources/hw5/`: small synthetic validation fixtures, not recovered course fixtures
 - `src/il/ac/tau/cs/sw1/ex5/BigramModel.java`: my recovered implementation, maintained for current toolchains
 - `src/il/ac/tau/cs/sw1/ex5/BigramModelTester.java`: recovered small tester from the submitted source tree
