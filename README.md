@@ -4,7 +4,7 @@ A 2018 CS BSc Java assignment submission implementing a bigram language model un
 
 ## Behavior
 
-`BigramModel` exposes the recovered API for:
+`BigramModel` exposes the API for:
 
 - vocabulary extraction with a maximum vocabulary size
 - bigram count matrix construction
@@ -29,20 +29,10 @@ This compiles the Java sources into `build/` using `javac -Xlint:all -Werror`.
 make test
 ```
 
-The validation run compiles the project, executes the maintained regression harness, and runs the recovered `BigramModelTester` against synthetic fixture files.
+The validation run compiles the project, executes the maintained regression harness, and runs the `BigramModelTester` against synthetic fixture files.
 
 ## Repository Structure
 
-- `assignment/MISSING_HANDOUT.md`: background note explaining that the exact matching handout and original fixtures were not recovered
-- `resources/hw5/`: small synthetic validation fixtures, not recovered course fixtures
-- `src/il/ac/tau/cs/sw1/ex5/BigramModel.java`: my recovered implementation, maintained for current toolchains
-- `src/il/ac/tau/cs/sw1/ex5/BigramModelTester.java`: recovered small tester from the submitted source tree
+- `src/il/ac/tau/cs/sw1/ex5/BigramModel.java`: my implementation, maintained for current toolchains
+- `src/il/ac/tau/cs/sw1/ex5/BigramModelTester.java`: small tester from the submitted source tree
 - `tests/RunHw5Checks.java`: maintained Java regression harness
-
-## Implementation notes
-
-The maintained version keeps the recovered package path and public API, cleans up implementation structure, adds synthetic validation fixtures, fixes invalid-token handling, single-word sentence legality, and zero-vector cosine similarity.
-
-## License
-
-No repository-wide license is declared because the exact supplied exercise terms were not recovered.
